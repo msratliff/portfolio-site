@@ -1,0 +1,150 @@
+body {
+	background-color: #305A9C;
+	
+}
+
+header {
+	background-color: #9c9130;
+	margin: -10px -10px 0px -10px
+}
+
+a:hover {
+	color: #9c9130;
+}
+
+.header__container {
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+	margin: auto 10%;
+
+}
+
+.header__text{
+	text-align: left;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 2em;
+	color: #DECEB4;
+}
+
+.header__image{
+	margin: 4% 0%;
+	width: 100%
+	
+}
+
+.contact__link{
+	margin: auto 10%;
+	text-align: center;
+	width: 80%
+}
+
+.img__social {
+	flex-grow: 2;
+	width: 10%;
+	margin: 2% 2% 2% 2%;
+
+}
+
+.img__headshot {
+	width: 75%;
+	border-radius: 10px;
+	filter: grayscale(95%);
+
+}
+
+.img__map {
+	width: 25%;
+}
+
+.desktop {
+	display: none;
+
+}
+
+.p__bio--head {
+	margin: 2% auto;
+	text-align: left;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1em;
+	color: #DECEB4;
+	width: 80%
+
+}
+
+.p__bio--body {
+	margin: 3% auto;
+	text-align: justify;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 0.9em;
+	color: #DECEB4;
+	width: 80%
+
+}
+
+footer {
+
+	background-color: #ffffff
+}
+
+.footer {
+	/*display: flex;*/
+	margin: 5% auto;
+	text-align: center;
+	
+}
+
+@media only screen and (min-width: 600px){
+    	
+	body {
+		background-image: none;
+		background-color: #305A9C;
+		
+	}
+	.desktop {
+		display: block;
+		font-family: Georgia, "Times New Roman", serif;
+		font-size: 1em;
+	}
+
+
+	.header__text{
+		text-align: left;
+		font-family: Georgia, "Times New Roman", serif;
+		font-size: 2.5em;
+		color: #DECEB4;
+	}
+
+	.p__bio--head {
+		margin: 2% auto;
+		text-align: left;
+		font-family: Georgia, "Times New Roman", serif;
+		font-size: 1.4em;
+		color: #DECEB4;
+		width: 80%
+
+	}
+
+	.p__bio--body {
+		margin: 3% auto;
+		text-align: justify;
+		font-family: Georgia, "Times New Roman", serif;
+		font-size: 1.3em;
+		color: #DECEB4;
+		width: 80%
+
+	}
+
+	.img__social {
+		flex-grow: 2;
+		width: 5%;
+		margin: 1% 1% 1% 1%;
+
+	}
+
+	.header__image{
+		margin: 4% 0%;
+		width: 35%
+		
+	}
+}
